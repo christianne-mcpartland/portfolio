@@ -8,5 +8,3 @@ I am a passionate graphic designer who loves to design logos, websites, and illu
 - [Behance](https://www.behance.net/mcpa002370c5)
 - [Twitter](https://twitter.com/katzdoe)
 - [Linkedin](https://ca.linkedin.com/in/christiannem)
-
-
