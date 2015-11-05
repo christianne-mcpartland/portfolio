@@ -48,15 +48,6 @@ body {
     top: 0;
 }
 
-.toggle {
-    position: absolute;
-    height: 2.25em;
-    margin-top: 1.75em;
-    margin-right: 1.75em;
-    right: 0em;
-    opacity: 60%;
-}
-
 .nav {
     list-style-type: none;
     text-align: left;
@@ -130,13 +121,18 @@ h1 {
     width: 100%;
     margin: none;
     padding: 0;
+    opacity: 1;
+}
+
+.piece:hover {
+    opacity: 0.6;
 }
 
 footer {
     text-align: center;
     margin: auto 0;
     background-color: grey;
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -162,8 +158,6 @@ a {
         padding-right: 1em;
         padding-bottom: 100px;
 }
-    
- 
     
 }
 
