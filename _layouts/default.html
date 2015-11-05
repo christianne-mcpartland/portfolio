@@ -3,17 +3,60 @@
     
     <head>
         <meta charset="utf-8">
-        <title>{% if page.title %}{{page.title}} • {% endif %} Christianne McPartland Portfolio</title>
+        <title>Christianne McPartland Portfolio</title>
         <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{{site.baseurl}}/css/grids.css">
+        <link href="{{site.baseurl}}/css/grids.css" rel="stylesheet">
         <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-    
     </head>
-    
-    
-    
-    
-    
     <body>
-    <main>
+   <main>
+        
+        <ul class="skip-links">
+            <li><a href="#main">Jump to Main Content</a></li>
+            <li><a href="#contentinfo">Jump to Footer</a></li>
+        </ul>
+        
+        <div>
+            <nav id="nav">
+                <ul class="nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+     
+            
+        <div>
+            <img class="banner" src="{{site.baseurl}}/images/billboard.svg" alt="porfolio billboard of artwork">
+        </div>
+    
+    
+        {{content}}
+       
+    </main>
+    
+    <footer>
+        <section id="contact">            
+            <a href="mailto:contact@christiannemcpartland.ca?Subject=Hello!" target="_top" title="E-mail Christianne McPartland">
+                <img class="social" src="{{site.baseurl}}/images/email.svg">
+            </a>
+            
+            <a href="https://www.behance.net/mcpa002370c5" id="contact">
+                <img class="social" src="{{site.baseurl}}/images/social-media-portfolio.svg" alt="behance icon">
+             </a>
+             
+            <a href="https://twitter.com/katzdoe">
+                <img class="social" src="{{site.baseurl}}/images/twitter-icon.svg" alt="twitter icon">
+            </a>
+                
+            <a href="https://ca.linkedin.com/in/christiannem">
+                 <img class="social" src="{{site.baseurl}}/images/linkedin-icon.svg" alt="linkedin icon">
+             </a>
+            </section>
+    </footer>
+    
+</body>
+</main>
+</html>
