@@ -69,7 +69,7 @@ body {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: #1fb296;
+  color: white;
   text-decoration: none;
 }
 
@@ -86,10 +86,14 @@ body {
 /* NAVIGATION BAR */
 
 .banner {
+    position: relative;
+    background-image: url("../images/pumpkin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     overflow: hidden;
-    padding: 0;
-    margin: 0;
     width: 100%;
+    z-index: -1;
 }
 
 .about {
@@ -148,6 +152,11 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 20em) {
+    
+    
+}
+
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
     
     .description {
@@ -158,6 +167,7 @@ a {
         padding-right: 1em;
         padding-bottom: 100px;
 }
+    
     
 }
 
@@ -187,4 +197,13 @@ a {
         display: inline-block;
         float: left;
     }
+    
+    .banner {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+    
+}
 
