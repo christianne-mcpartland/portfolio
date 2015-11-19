@@ -113,18 +113,13 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 200;
     color: #1fb296;
 }
 
-.description {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 300;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 60px;
+p {
+
 }
 
 .portfolio {
@@ -180,20 +175,28 @@ a {
 
 @media only screen and (min-width: 20em) {
     
+    p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 60px;
+}
     
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
     
-    .description {
+    
+    p {
         text-align: center;
         font-size: 20px;
         font-weight: 300;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 100px;
-}
-    
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-bottom: 60px;
+    }
     
 }
 
