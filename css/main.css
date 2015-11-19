@@ -162,6 +162,15 @@ a {
     text-decoration: none;
 }
 
+/* INDIVIDUAL PAGES */
+
+.portimg {
+    width: 100%;
+    margin: none;
+    padding: 1em;
+    text-align: center;
+}
+
 @media only screen and (min-width: 20em) {
     
     
