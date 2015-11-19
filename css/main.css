@@ -164,6 +164,14 @@ a {
 
 /* INDIVIDUAL PAGES */
 
+.oatlogo {
+    width: 100%;
+    height: 175px;
+    margin: none;
+    padding-top: 2em;
+    text-align: center;
+}
+
 .portimg {
     width: 100%;
     margin: none;
