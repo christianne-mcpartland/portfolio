@@ -49,6 +49,12 @@ body {
     top: 0;
 }
 
+.arrow {
+    height: 25px;
+    margin: none;
+    padding: none;
+}
+
 .nav {
     list-style-type: none;
     text-align: left;
