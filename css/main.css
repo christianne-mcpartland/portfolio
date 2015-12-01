@@ -133,15 +133,22 @@ p {
     padding: 0;
 }
 
-.piece {
+.pieceone {
     width: 100%;
     margin: none;
     padding: 0.5em;
     opacity: 1;
 }
 
-.piece:hover {
-    opacity: 0.6;
+.pieceone:hover {
+    background-image: url(../images/overlay-chaos-illustration.jpg);
+}
+
+.piece {
+    width: 100%;
+    margin: none;
+    padding: 0.5em;
+    opacity: 1;
 }
 
 footer {
@@ -182,13 +189,20 @@ a {
 @media only screen and (min-width: 20em) {
     
     p {
-    text-align: center;
-    font-size: 15px;
-    font-weight: 300;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 60px;
-}
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 60px;
+    }
+    
+    .beardsley {
+        width: 100%;
+        margin: none;
+        padding: none;
+        text-align: center;
+    }
     
 }
 
@@ -202,6 +216,14 @@ a {
         padding-left: 5em;
         padding-right: 5em;
         padding-bottom: 60px;
+    }
+    
+    .beardsley {
+        width: 100%;
+        margin: none;
+        padding-left: 5em;
+        padding-right: 5em;
+        text-align: center;
     }
     
 }
