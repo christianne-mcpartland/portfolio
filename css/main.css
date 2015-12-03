@@ -124,30 +124,14 @@ h1 {
     color: #1fb296;
 }
 
-p {
-
-}
-
 .portfolio {
     margin: none;
     padding: 0;
 }
 
-.pieceone {
-    width: 100%;
-    margin: none;
-    padding: 0.5em;
-    opacity: 1;
-}
-
-.pieceone:hover {
-    background-image: url(../images/overlay-chaos-illustration.jpg);
-}
-
 .piece {
     width: 100%;
     margin: none;
-    padding: 0.5em;
     opacity: 1;
 }
 
