@@ -50,22 +50,21 @@ body {
 }
 
 .arrow {
-    height: 25px;
-    margin: none;
-    padding: none;
+    height: 70px;
+    text-align: center;
 }
 
 .nav {
     list-style-type: none;
-    text-align: left;
     position: absolute;
+    left: 30%;
     right: 0em;
 }
 
 .nav li {
     text-transform: uppercase;
     letter-spacing: .2em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     display: inline-block;
     text-decoration: none;
     padding-top: 1.1em;
@@ -94,10 +93,10 @@ body {
 
 .banner {
     position: relative;
-    background-image: url("../images/streetcar.jpg");
+/*    background-image: url("../images/streetcar.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 40vh;
     overflow: hidden;
     width: 100%;
     z-index: -1;
@@ -122,6 +121,13 @@ h1 {
     font-size: 50px;
     font-weight: 200;
     color: #1fb296;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
 }
 
 .portfolio {
@@ -157,7 +163,13 @@ footer {
 
 a {
     text-decoration: none;
-}  
+}
+
+.band {
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+}
 
 /* INDIVIDUAL PAGES */
 
@@ -251,6 +263,15 @@ a {
         padding-left: 20em;
         padding-right: 20em;
         padding-bottom: 60px;
+    }
+    
+    .portimg {
+        width: 100%;
+        padding-left: 12em;
+        padding-right: 12em;
+        padding-bottom: 4em;
+        margin: none;
+        text-align: center;
     }
     
     
