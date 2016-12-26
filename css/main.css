@@ -96,7 +96,7 @@ body {
 /*    background-image: url("../images/streetcar.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 25vh;
     overflow: hidden;
     width: 100%;
     z-index: -1;
@@ -150,7 +150,7 @@ footer {
     margin: auto 0;
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: #c3a02f;
+    background-color: rgba(114, 94, 25, 0.6);
 }
 
 .social {
@@ -182,7 +182,6 @@ a {
 }
 
 .portimg {
-    width: 100%;
     margin: none;
     text-align: center;
 }
