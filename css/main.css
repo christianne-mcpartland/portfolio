@@ -225,6 +225,12 @@ a {
         text-align: center;
     }
     
+    .vesper {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    
 }
 
 @media only screen and (min-width: 48em) /* TABLET */ {
@@ -236,12 +242,30 @@ a {
         float: left;
     }
     
+    .portimg {
+        width: 33.3333%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .oat {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .vesper {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+        
      p {
-        text-align: left;
+        text-align: center;
         font-size: 20px;
         font-weight: 300;
         padding-left: 10em;
-        padding-right: 20em;
+        padding-right: 10em;
         padding-bottom: 50px;
     }
 }
@@ -263,24 +287,41 @@ a {
         float: left;
     }
     
+    .vesper {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    
     p {
-        text-align: left;
+        text-align: center;
         font-size: 20px;
         font-weight: 300;
-        padding-left: 10em;
+        padding-left: 20em;
         padding-right: 20em;
         padding-bottom: 40px;
     }
     
-    .portimg {
+    /*.portimg {
         width: 100%;
         padding-left: 12em;
         padding-right: 12em;
         padding-bottom: 4em;
         margin: none;
         text-align: center;
+    } */
+    
+    .portimg {
+        width: 33.3333%;
+        display: inline-block;
+        float: left;
     }
     
+    .oat {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
     
 }
 
