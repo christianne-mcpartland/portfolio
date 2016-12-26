@@ -51,14 +51,14 @@ body {
 
 .arrow {
     height: 70px;
-    text-align: left;
 }
 
 .nav {
     list-style-type: none;
+    text-align: center;
     position: absolute;
-    left: 30%;
-    right: 0em;
+    right: 4em;
+    display: flex;
 }
 
 .nav li {
@@ -75,7 +75,7 @@ body {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
