@@ -208,14 +208,13 @@ a {
 @media only screen and (min-width: 20em) {
     
     p {
-        text-align: center;
-        font-size: 15px;
-        font-weight: 300;
-        padding-right: 1em;
-        padding-left: 1em;
-        padding-bottom: 60px;
-        
-    }
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.5em;
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-top: -1em;
+    }   
+
     
     .beardsley {
         width: 100%;
