@@ -204,10 +204,27 @@ a {
         text-align: center;
     }
     
+    .arrows {
+        width: 50.0000%;
+        display: inline-block;
+        float: left;
+        height: 7em;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+    }
+    
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
     
+    .arrows {
+        width: 50.0000%;
+        display: inline-block;
+        float: left;
+        height: 8em;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+    }
     
     p {
         text-align: center;
@@ -235,7 +252,16 @@ a {
 
 @media only screen and (min-width: 48em) /* TABLET */ {
     
-    
+    .arrows {
+        width: 50.0000%;
+        display: inline-block;
+        float: left;
+        height: 10em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        background-color: white;
+    }
+   
     .piece {
         width: 50.0000%;
         display: inline-block;
@@ -271,6 +297,16 @@ a {
 }
 
 @media only screen and (min-width: 72em) /* DESKTOP */ {
+    
+    .arrows {
+        width: 50.000%;
+        display: inline-block;
+        float: left;
+        height: 12em;
+        padding-top: 2em;
+        padding-bottom: 3em;
+        background-color: white;
+    }
     
     .description {
         text-align: center;
