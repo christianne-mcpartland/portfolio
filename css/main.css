@@ -22,8 +22,8 @@ html {
 body {
     display: block;
     margin: 0 auto;
-    overflow-x: hidden;
-    background-color: white;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 /* NAVIGATION BAR */
@@ -171,6 +171,32 @@ a {
     text-align: center;
 }
 
+.skill-icons {
+    max-width: 33.3333%;
+    display: inline-block;
+}
+
+.skill-icons-placement {
+    display: inline-block;
+    position: relative;
+}
+
+.icons {
+    padding: .5em;
+    height: 10em;
+    width: 100%;
+    vertical-align: top;
+}
+
+.icon-caption {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+
+
 /* INDIVIDUAL PAGES */
 
 .oatlogo {
@@ -200,6 +226,30 @@ a {
     
     .isometric {
         width: 100%;
+    }
+    
+    .skill-icons {
+        max-width: 1;
+        display: inline-block;
+    }
+
+    .skill-icons-placement {
+        display: inline-block;
+        position: relative;
+    }
+
+    .icons {
+        padding: .5em;
+        height: 10em;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .icon-caption {
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2em;
+        text-align: center;
     }
     
     
@@ -234,6 +284,30 @@ a {
     
     .isometric {
         width: 100%;
+    }
+    
+    .skill-icons {
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    .skill-icons-placement {
+        display: inline-block;
+        position: relative;
+    }
+
+    .icons {
+        padding: .5em;
+        height: 10em;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .icon-caption {
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2em;
+        text-align: center;
     }
     
 }
